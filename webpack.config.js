@@ -3,7 +3,7 @@ let webpack = require('webpack')
 
 module.exports = {
   context: __dirname,
-  entry: "frontend/app.jsx",
+  entry: "frontend/BoA.jsx",
   output: {
     path: path.resolve(__dirname, 'app', 'assets', 'javascripts'),
     filename: "bundle.js"
